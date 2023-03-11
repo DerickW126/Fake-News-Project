@@ -13,10 +13,10 @@ from googletrans import Translator
 from summarizer import Summarizer
 
 device=torch.device('cpu')
-fake_news_model = torch.load('fake_news_model.pkl', map_location ='cpu')
-clickbait_model = keras.models.load_model('Clickbait_model.pkl')
-translator = Translator()
-summary_model = Summarizer('distilbert-base-uncased', hidden=[-1,-2], hidden_concat=True)
+fake_news_model = torch.load('fake_news_model.pkl', map_location ='cpu') # load pretrained model
+clickbait_model = keras.models.load_model('Clickbait_model.pkl') # load pretrained model
+translator = Translator() # load pretrained model
+summary_model = Summarizer('distilbert-base-uncased', hidden=[-1,-2], hidden_concat=True) # load pretrained model
 
 def summary(text):
     result = summary_model(text,num_sentences=3)
