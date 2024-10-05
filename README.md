@@ -1,6 +1,6 @@
 # Fake-News-Detection Chrome Extension
 
-This Chrome Extension helps users identify fake news and clickbait headlines. The extension, developed under the guidance of Professor Ze Lin at National Taiwan University, uses Natural Language Processing (NLP) and machine learning to analyze headlines and articles for accuracy. 
+This Chrome Extension helps users identify fake news and clickbait headlines. The extension, developed under the guidance of Professor Che Lin at National Taiwan University, uses Natural Language Processing (NLP) and machine learning to analyze headlines and articles for accuracy. 
 
 ## Features
 
