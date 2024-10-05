@@ -14,9 +14,15 @@ This Chrome Extension helps users identify fake news and clickbait headlines. Th
 
 ## Machine Learning
 
-The core of the project lies in our NLP model, which has been trained on a diverse dataset of fact-checked news and articles. This model evaluates the veracity of articles based on linguistic patterns and metadata from fact-checking websites.
+The core of the project lies in our NLP models, which have been trained on diverse datasets. We use two main models:
 
-The training process, available as an `.ipynb` notebook in this repository, provides insights into the steps taken to build and refine the model, including data preprocessing, model selection, and evaluation metrics.
+- **Fake News Detection Model:** This model evaluates the veracity of articles by analyzing linguistic patterns and metadata from fact-checking websites. It determines whether a given news article is likely to be fake based on the content and structure.
+
+- **Clickbait Detection Model:** In addition to fake news detection, we trained a model specifically to identify clickbait headlines. The model analyzes various features of the headline to determine whether it is designed to mislead or sensationalize content.
+
+The main goal of this project is to bring these models into practical use. By integrating them into a Chrome Extension, we allow users to directly interact with the models in real time, providing them with valuable insights into the credibility and trustworthiness of the news they consume. The extension makes it easy for users to receive instant feedback on the articles they are reading, bridging the gap between machine learning theory and everyday application.
+
+The training process for both models, available as an `.ipynb` notebook in this repository, outlines the steps taken to build and refine them, including data preprocessing, model selection, and evaluation metrics.
 
 ## Demo image
 
