@@ -4,9 +4,9 @@ This Chrome Extension helps users identify fake news and clickbait headlines. Th
 
 ## Features
 
-- **Cross-Language Translation:** Users input Chinese headlines, which are automatically translated into English to search for corresponding articles on international news and fact-checking websites.
+- **Cross-Language Translation:** Users input Chinese headlines, which are automatically translated into English to search for corresponding articles on international news and fact-checking websites, aiming to address misinformation due to loss in translation or malicious intent across languages.
   
-- **Web Scraping:** The extension crawls relevant websites to gather articles for analysis. Each article's publication date, title, tags, and summary are retrieved for further evaluation.
+- **Web Scraping:** The extension crawls relevant fact-check websites and credible news sources to gather articles for analysis. Each article's publication date, title, tags, and summary are retrieved for further evaluation.
 
 - **Fake News Detection:** Our custom-trained machine learning model determines whether the news is fake and detects clickbait elements in the headline.
 
